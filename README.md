@@ -5,21 +5,6 @@ This guide will help you learn the basics of using **Git** and **GitHub** to man
 
 ---
 
-## What is GitHub?
-
-GitHub is a platform that uses **Git**, a version control system, to track changes in your code.  
-It helps developers **collaborate**, **backup projects**, and **manage versions** easily.
-
----
-
-## Prerequisites
-
-Before you start:
-- Create a [GitHub account](https://github.com/)
-- Install [Git](https://git-scm.com/downloads)
-- Know basic terminal 
----
-
 ## Step 1: Create a Repository on GitHub
 1. Log in to your GitHub account.  
 2. Click the **“+”** button in the top-right → select **“New repository”**.  
@@ -59,7 +44,21 @@ This sequence ensures beginners understand:
 - Creating a new file (`touch`)  
 - Staging files (`git add .`)  
 - Committing (`git commit`)  
-- Pushing to GitHub (`git push`)  
+- Pushing to GitHub (`git push`)
+
+## step 5: Fetch, Merge, Commit, and Push Changes
+
+- **Fetching updates from the remote repository**  
+  ```bash
+  git fetch
+- **Merging fetched changes into your current branch**  
+  ```bash
+  git merge origin
+- **Committing all changes with a message**  
+  ```bash
+  git commit -a -m "recent commit"
+  git push
+---
 
  ### Summary of Common Git Commands
 
