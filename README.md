@@ -52,6 +52,15 @@ Before you start:
 7. Push Changes to GitHub
    (git push origin) or git push origin main --force
 
+## step 4: pushing new file to github
+
+This sequence ensures beginners understand:  
+- Pulling updates before working (`git pull`)  
+- Creating a new file (`touch`)  
+- Staging files (`git add .`)  
+- Committing (`git commit`)  
+- Pushing to GitHub (`git push`)  
+
  ### Summary of Common Git Commands
 
 | Command                   | Description                     |
