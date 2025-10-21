@@ -1,1 +1,1 @@
-cloud service providers : aws, gcp, azure
+cloud service providers : aws, gcp, azure, oracle, ibm
