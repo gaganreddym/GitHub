@@ -1,1 +1,1 @@
-The Linux kernel was created by Linus Torvalds 
+The Linux kernel was created by Linus Torvalds and so GitHub is
